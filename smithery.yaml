@@ -1,0 +1,7 @@
+name: relay-mcp
+description: 中转站账户管理 MCP：让 AI 直接查 API 余额 / 测站可用性 / 列模型列表
+categories:
+  - tools
+  - productivity
+license: MIT
+repository: https://github.com/dafeiai918/relay-mcp

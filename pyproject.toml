@@ -1,0 +1,21 @@
+[project]
+name = "relay-mcp"
+version = "1.0.0"
+description = "中转站账户管理 MCP：让 AI 直接查 API 余额 / 测站可用性 / 列模型列表"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+relay-mcp = "relay_mcp:main"
+
+[project.urls]
+Homepage = "https://github.com/dafeiai918/relay-mcp"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+include = ["relay_mcp.py"]
